@@ -1,5 +1,4 @@
 body {
-  background-image: url('../images/funky-lines.png');
   width: 100%;
   margin:0;
 }
@@ -196,25 +195,36 @@ footer {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 640px) {
-header{
+@media only screen and (min-width: 580px) {
+  header{
     position: static;
+    }
+  body{
+      background-color: #bbded6;
+    }
   }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 640px) {
 header{
   position: static;
   }
+body{
+    background-color: #ffb6b9;
+  }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+body{
+    background-color: #bbded6;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 980px) {
-
+@media only screen and (min-width: 980px) {
+body{
+    background-color: #fae3d9;
+  }
 }
