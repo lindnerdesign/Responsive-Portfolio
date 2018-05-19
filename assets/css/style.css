@@ -1,0 +1,220 @@
+body {
+  background-image: url('../images/funky-lines.png');
+  width: 100%;
+  margin:0;
+}
+
+/* Typography styling */
+h1 {
+  color: #fff;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+h2 {
+  color: #4aaaa5;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+li {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  background: #fff;
+  border-bottom: #ddd 2px solid;
+  height: 75px;
+  width: 100%;
+}
+
+/* Navigation button link styling */
+a {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #4aaaa5;
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+a:visited {
+  color: darkgray;
+
+}
+
+/* Header with Navigation Bar */
+
+.navbar {
+  height: 75px;
+  margin: auto;
+  width: 960px;
+  position:sticky;
+}
+
+.name {
+  background:linear-gradient(to bottom right, #00537E,#3AA17E);
+  float:left;
+  height: 70px;
+  padding: 0px 20px 5px 20px;
+}
+
+.home {
+  border-right: #ddd 1px solid;
+  float:right;
+  margin: 15px 0px 15px 0px;
+  padding: 0px 10px 0px 10px;
+}
+
+.contact {
+  border-right: #ddd 1px solid;
+  float:right;
+  margin: 15px 0px 15px 0px;
+  padding: 0px 10px 0px 10px;
+}
+
+/* Main contents HOME page. */
+.portfolio {
+  float:right;
+  padding: 15px 0px 0px 10px;
+}
+
+.container {
+  background: #fff;
+  height: 950px;
+  margin: auto;
+  width: 960px;
+}
+
+.about {
+  border-bottom: #ddd 2px solid;
+  margin: 40px 20px 0px 20px;
+  padding: 5px 0px 0px 0px;
+}
+
+.contactcontents {
+  border-bottom: #ddd 2px solid;
+  margin: 40px 20px 0px 20px;
+  padding: 5px 0px 0px 0px;
+}
+
+.portfoliocontents {
+  border-bottom: #ddd 2px solid;
+  margin: 40px 20px 0px 20px;
+  padding: 5px 0px 0px 0px;
+}
+
+.bioimage {
+  float: left;
+  margin: 40px 20px 0px 20px;
+}
+
+.bio {
+  margin: 40px 75px 0px 350px;
+}
+
+/* Main contents CONTACT page. */
+
+form {
+ padding: 0px 25px 0px 20px;
+}
+
+input {
+  height: 30px;
+  width: 100%;
+  margin-top: -10;
+}
+
+textarea {
+  height: 200px;
+  width: 100%;
+  margin-top: -5px;
+}
+
+button {
+  background-color: #4aaaab;
+  color: white;
+  height: 35px;
+  margin-top: 10px;
+  width: 80px;
+}
+
+/* Main contents PORTFOLIO page. */
+
+.text-block {
+  position: absolute;
+  background: linear-gradient(to bottom right, #00537E,#3AA17E);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+  width: 300px;
+  padding: 10px 0px 10px 0px;
+  margin: -100px 0px 0px 0px;
+}
+
+.webcontainer {
+  margin: 40px 0px 0px 20px;
+  float: left;
+}
+
+.printcontainer {
+  float: left;
+  clear: right;
+  margin: 40px 0px 0px 20px;
+}
+
+.mayacontainer {
+  margin: 40px 20px 0px 20px;
+  float: left;
+}
+
+.videocontainer {
+  margin: 40px 0px 0px 0px;
+  float: left;
+}
+
+.publishingcontainer {
+  margin: 40px 0px 0px 20px;
+  float: left;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to bottom right, #00537E,#3AA17E);
+  border-top: #4aaaa5 5px solid;
+  bottom: 0;
+  color:#fff;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+header{
+    position: static;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 640px) {
+header{
+  position: static;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 980px) {
+
+}
